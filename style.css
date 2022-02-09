@@ -19,7 +19,7 @@ section{
     align-content: center;
 }
 section > h1{
-    font-size: 20px;
+    font-size: 30px;
     color:rgb(1, 1, 59);
     font-weight: bolder;
     text-align:center;
@@ -27,6 +27,7 @@ section > h1{
 section p{
     font-weight: bold;
     font-size: 16px;
+    text-align:center;
 }
 input{
     width: 70%;
