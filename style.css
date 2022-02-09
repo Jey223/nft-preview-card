@@ -13,6 +13,7 @@ section{
     margin:auto;
     box-sizing: border-box;
     padding: 50px;
+    padding-right: 30px;
     background-color:hsl(0, 0%, 100%);
     margin-top:7rem;
     border-radius: 15px;
