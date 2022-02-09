@@ -3,12 +3,9 @@ a{
     cursor: pointer;
 }
 
-
 body{
     background-color: #e6e9fb;
-    margin: 0px;
-    padding:0px;
-    font-family: sans-serif;
+     font-family: sans-serif;
 }
 section{
     width:50%;
