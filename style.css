@@ -17,11 +17,25 @@ body{
 section{
     width:600px;
     margin:7rem auto;
-    padding: 53px;
+    padding: 45px;
     background-color:hsl(0, 0%, 100%);
     border-radius: 15px;
     align-content: center;
     position: relative;
+}
+
+section::after{
+    content: "";
+    position: absolute;
+    height: 17px;
+    width: 550px;
+    background-color: rgba(255, 255, 255, .6);
+    bottom: -17px;
+    left: 25px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
 }
 section > h1{
     font-size: 33px;
@@ -34,8 +48,8 @@ section p{
 }
 input[type='text']{
     width: 350px;
-    height: 48px;
-    padding: 4px 20px;
+    height: 45px;
+    padding: 4px 15px;
     font-size: 15px;
     background-color: #f2f3f7;
     outline: none;
@@ -44,9 +58,9 @@ input[type='text']{
     margin: 10px 0px;
 }
 .button{
-    height: 48px;
+    height: 45px;
     margin:0px 10px;
-    padding: 4px 20px;
+    padding: 4px 15px;
     background-color:rgb(1, 1, 59);
     border-radius: 5px;
     border: none;
@@ -83,11 +97,3 @@ a.portfolio{
     background-color: rgba(103,163,87, .2);
 }
 
-/*div{
-    position: absolute;
-    width: 550px;
-    background-color: red;
-    left: 25px;
-    bottom: 0;
-    
-}
